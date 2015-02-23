@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>All Pay</title>
+</head>
+<body>
+	<h1>Hi All Pay</h1>
+	<form action="http://payment-stage.allpay.com.tw/Cashier/AioCheckOut" method="post">
+		<input type="hidden" name="MerchantID" value="2000132" />
+		<input type="hidden" name="MerchantTradeNo" value="testtest1111" />
+		<input type="hidden" name="MerchantTradeDate" value="2015/02/23 23:44:00" />
+		<input type="hidden" name="PaymentType" value="aio" />
+		<input type="hidden" name="TotalAmount" value="888" />
+		<input type="hidden" name="TradeDesc" value="testtest" />
+		<input type="hidden" name="ItemName" value="Servives1m" />
+		<input type="hidden" name="ReturnURL" value="http://localhost:8080/" />
+		<input type="hidden" name="ChoosePayment" value="WebATM" />
+		<input type="hidden" name="CheckMacValue" value="62219C3FC24F88C0AC41A6CC6C54DBEB" />
+		
+		<input type="submit" value="send" />
+	</form>
+</body>
+</html>
