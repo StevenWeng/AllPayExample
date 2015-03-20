@@ -7,6 +7,7 @@ public class OrderService {
 	
 	public String generateTradeNo(){
 		//TODO
+		String s = "hi";
 		return null;
 	}
 	
