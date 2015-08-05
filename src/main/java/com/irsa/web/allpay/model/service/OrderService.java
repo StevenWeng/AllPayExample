@@ -1,4 +1,4 @@
-package com.irsa.allpay.model.service;
+package com.irsa.web.allpay.model.service;
 
 import org.springframework.stereotype.Service;
 
