@@ -21,7 +21,7 @@ public class OrderServiceTest {
 	@Test
 	public void testGenerateTradeNo() {
 		String result = orderService.generateTradeNo();
-		assertEquals("", result);
+		assertEquals("test", result);
 	}
 
 }
