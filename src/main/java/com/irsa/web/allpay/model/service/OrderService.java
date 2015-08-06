@@ -7,10 +7,9 @@ public class OrderService {
 	
 	public String generateTradeNo(){
 		//TODO
-		//TODO
 		String s = "hi";
 		String s2 = "hi";
-		return null;
+		return "test";
 	}
 	
 	public void createOrder(){
